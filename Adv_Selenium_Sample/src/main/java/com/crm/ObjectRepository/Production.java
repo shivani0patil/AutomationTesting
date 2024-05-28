@@ -11,5 +11,16 @@ public class Production {
 	
 	public WebElement getProducsLinks() {
 		return producsLinks;
-	}
+		
+		}
+	
+	@FindBy(name="search_text")
+	WebElement search_text;
+	
+	public WebElement getSearch_text() {
+		return search_text;
+		
+		}
+	
+	
 }
