@@ -22,5 +22,11 @@ public class Production {
 		
 		}
 	
+	@FindBy(name="viewname")
+	WebElement viewname;
 	
+	public WebElement getViewname() {
+		return viewname;
+		
+		}
 }
